@@ -1,12 +1,13 @@
 # LA County Education & Health Analysis
 
-< 🔄 Status: In Progress: SQL analysis is currently underway. A Power BI dashboard will be added in a later phase of the project.
+> 🔄 Status: In Progress: SQL analysis is currently underway. A Power BI dashboard will be added in a later phase of the project.
 
 ## Table of Contents
-1. Project Background and Overview
-2. Data & Methodology
-3. Next Steps
-4. Project Background and Overview
+1. [Project Background and Overview](#project-background-and-overview)
+2. [Data & Methodology](#data-and-methodology)
+3. [Next Steps](#next-steps)
+
+## Project Background and Overview
 
 This project analyzes the relationship between educational attainment and self-reported poor health across communities in Los Angeles County.
 
@@ -40,20 +41,24 @@ Data Context: [County of Los Angeles Public Health — Social Determinants of He
   - Identify patterns and disparities associated with education, income, and poverty
   - Interpret query results in the context of social determinants of health
 
-Status: The following analyses are planned and reflect work that is still in progress.
+## Next Steps
 
-Exploratory Analysis:
-Profile the dataset and identify notable distributions, missing values, and outliers.
-Community Comparisons:
-Rank and compare Los Angeles County communities based on poor health, educational attainment, poverty, income, life expectancy, and mortality.
-Relationship Analysis:
-Examine whether communities with lower educational attainment also tend to report poorer health outcomes and how income and poverty relate to those patterns.
-Analysis-Ready Outputs:
-Create reusable SQL queries, CTEs, or views that summarize the most important findings for visualization.
-Interpretation:
-Translate SQL results into clear findings about socioeconomic and health disparities without treating observed associations as proof of causation.
-Dashboard:
-Present the most important findings in Power BI through KPIs, community rankings, comparison charts, and interactive filters.
+> Status: The following analyses are planned and reflect work that is still in progress.
+
+- **Exploratory Analysis:**
+  - Profile the dataset and identify notable distributions, missing values, and outliers
+- **Community Comparisons:**
+  - Rank and compare Los Angeles County communities based on poor health, educational attainment, poverty, income, life expectancy, and mortality
+- **Relationship Analysis:**
+  - Examine whether communities with lower educational attainment also tend to report poorer health outcomes
+  - Assess how income and poverty relate to those patterns
+- **Analysis-Ready Outputs:**
+  - Create reusable SQL queries, CTEs, or views that summarize the most important findings for visualization
+- **Interpretation:**
+  - Translate SQL results into clear findings about socioeconomic and health disparities
+  - Avoid treating observed associations as proof of causation
+- **Dashboard:**
+  - Present the most important findings in Power BI through KPIs, community rankings, comparison charts, and interactive filters
 
 <!--
 # la-county-SDOH-analysis
